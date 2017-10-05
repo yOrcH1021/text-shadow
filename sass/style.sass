@@ -1,0 +1,67 @@
+/* IMPORT */
+@import compass/css3
+
+@function makeShadow($color, $length, $direction)
+    $value: 0px 0px $color
+    $direction: $direction
+    $length: $length
+
+    @if $direction == right
+        @for $i from 1 through $length
+            $value: #{$value}, #{$i}px #{$i}px #{$color}
+        @return $value
+    @else if $direction == left
+        @for $i from 1 through $length
+            $value: #{$value}, #{-$i}px #{$i}px #{$color}
+        @return $value
+
+@mixin shadow($type, $color, $length, $direction)
+    @if $type == text
+        text-shadow: makeShadow($color, $length, $direction)
+    @if $type == box
+        box-shadow: makeShadow($color, $length, $direction)
+
+*
+    font-family: sans-serif
+body
+    display: table
+    height: 100%
+    width: 100%
+    margin: 0
+
+section
+    background: darkslategray
+    vertical-align: middle
+    display: table-cell
+    text-align: center
+    div
+        @include shadow(box, #326769, 25, right)
+        @include border-radius(10px)
+        border: 5px solid #3E8284
+        background: cadetblue
+        display: inline-block
+        overflow: hidden
+        margin: 0 15px
+        padding: 20px
+        height: 100px
+        width: 100px
+        .icon
+            @include shadow(text, #3E8284, 100, right)
+            font-size: 100px
+            color: white
+
+.icon-home
+    &:before
+        content: '\e900'
+.icon-headphones
+    &:before
+        content: '\e910'
+.icon-music
+    &:before
+        content: '\e911'
+.icon-video-camera
+    &:before
+        content: '\e914'
+.icon-bubble2
+    &:before
+        content: '\e96e'

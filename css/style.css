@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* IMPORT */
+* {
+  font-family: sans-serif;
+}
+
+body {
+  display: table;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+section {
+  background: darkslategray;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+}
+section div {
+  box-shadow: 0px 0px #326769, 1px 1px #326769, 2px 2px #326769, 3px 3px #326769, 4px 4px #326769, 5px 5px #326769, 6px 6px #326769, 7px 7px #326769, 8px 8px #326769, 9px 9px #326769, 10px 10px #326769, 11px 11px #326769, 12px 12px #326769, 13px 13px #326769, 14px 14px #326769, 15px 15px #326769, 16px 16px #326769, 17px 17px #326769, 18px 18px #326769, 19px 19px #326769, 20px 20px #326769, 21px 21px #326769, 22px 22px #326769, 23px 23px #326769, 24px 24px #326769, 25px 25px #326769;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 5px solid #3E8284;
+  background: cadetblue;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 15px;
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+}
+section div .icon {
+  text-shadow: 0px 0px #3E8284, 1px 1px #3E8284, 2px 2px #3E8284, 3px 3px #3E8284, 4px 4px #3E8284, 5px 5px #3E8284, 6px 6px #3E8284, 7px 7px #3E8284, 8px 8px #3E8284, 9px 9px #3E8284, 10px 10px #3E8284, 11px 11px #3E8284, 12px 12px #3E8284, 13px 13px #3E8284, 14px 14px #3E8284, 15px 15px #3E8284, 16px 16px #3E8284, 17px 17px #3E8284, 18px 18px #3E8284, 19px 19px #3E8284, 20px 20px #3E8284, 21px 21px #3E8284, 22px 22px #3E8284, 23px 23px #3E8284, 24px 24px #3E8284, 25px 25px #3E8284, 26px 26px #3E8284, 27px 27px #3E8284, 28px 28px #3E8284, 29px 29px #3E8284, 30px 30px #3E8284, 31px 31px #3E8284, 32px 32px #3E8284, 33px 33px #3E8284, 34px 34px #3E8284, 35px 35px #3E8284, 36px 36px #3E8284, 37px 37px #3E8284, 38px 38px #3E8284, 39px 39px #3E8284, 40px 40px #3E8284, 41px 41px #3E8284, 42px 42px #3E8284, 43px 43px #3E8284, 44px 44px #3E8284, 45px 45px #3E8284, 46px 46px #3E8284, 47px 47px #3E8284, 48px 48px #3E8284, 49px 49px #3E8284, 50px 50px #3E8284, 51px 51px #3E8284, 52px 52px #3E8284, 53px 53px #3E8284, 54px 54px #3E8284, 55px 55px #3E8284, 56px 56px #3E8284, 57px 57px #3E8284, 58px 58px #3E8284, 59px 59px #3E8284, 60px 60px #3E8284, 61px 61px #3E8284, 62px 62px #3E8284, 63px 63px #3E8284, 64px 64px #3E8284, 65px 65px #3E8284, 66px 66px #3E8284, 67px 67px #3E8284, 68px 68px #3E8284, 69px 69px #3E8284, 70px 70px #3E8284, 71px 71px #3E8284, 72px 72px #3E8284, 73px 73px #3E8284, 74px 74px #3E8284, 75px 75px #3E8284, 76px 76px #3E8284, 77px 77px #3E8284, 78px 78px #3E8284, 79px 79px #3E8284, 80px 80px #3E8284, 81px 81px #3E8284, 82px 82px #3E8284, 83px 83px #3E8284, 84px 84px #3E8284, 85px 85px #3E8284, 86px 86px #3E8284, 87px 87px #3E8284, 88px 88px #3E8284, 89px 89px #3E8284, 90px 90px #3E8284, 91px 91px #3E8284, 92px 92px #3E8284, 93px 93px #3E8284, 94px 94px #3E8284, 95px 95px #3E8284, 96px 96px #3E8284, 97px 97px #3E8284, 98px 98px #3E8284, 99px 99px #3E8284, 100px 100px #3E8284;
+  font-size: 100px;
+  color: white;
+}
+
+.icon-home:before {
+  content: "";
+}
+
+.icon-headphones:before {
+  content: "";
+}
+
+.icon-music:before {
+  content: "";
+}
+
+.icon-video-camera:before {
+  content: "";
+}
+
+.icon-bubble2:before {
+  content: "";
+}
